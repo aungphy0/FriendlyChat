@@ -1,0 +1,6 @@
+framework module Pods_FriendlyChat_FriendlyChatUITests {
+  umbrella header "Pods-FriendlyChat-FriendlyChatUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

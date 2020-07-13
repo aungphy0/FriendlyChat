@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02458AE27DA754171EF794C7 /* Pods_FriendlyChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ADF66D6A64EED3C457C6835 /* Pods_FriendlyChat.framework */; };
+		0A9B297728F32F1509A5FA0E /* Pods_FriendlyChat_FriendlyChatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 196656D0D66303D085BBF145 /* Pods_FriendlyChat_FriendlyChatUITests.framework */; };
 		3D0EEA9024BA1B6B00577EF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0EEA8F24BA1B6B00577EF3 /* AppDelegate.swift */; };
 		3D0EEA9224BA1B6B00577EF3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0EEA9124BA1B6B00577EF3 /* SceneDelegate.swift */; };
 		3D0EEA9424BA1B6B00577EF3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0EEA9324BA1B6B00577EF3 /* ContentView.swift */; };
@@ -15,6 +17,8 @@
 		3D0EEA9C24BA1B6D00577EF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D0EEA9A24BA1B6D00577EF3 /* LaunchScreen.storyboard */; };
 		3D0EEAA724BA1B6D00577EF3 /* FriendlyChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0EEAA624BA1B6D00577EF3 /* FriendlyChatTests.swift */; };
 		3D0EEAB224BA1B6D00577EF3 /* FriendlyChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0EEAB124BA1B6D00577EF3 /* FriendlyChatUITests.swift */; };
+		3D0EEAC024BA1FFC00577EF3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3D0EEABF24BA1FFC00577EF3 /* GoogleService-Info.plist */; };
+		484878EF92D4E8DD9A4BF08A /* Pods_FriendlyChatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F4B71F5DE0E8B8394D1F8A9 /* Pods_FriendlyChatTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07A602251FE59BEE851A8BAB /* Pods-FriendlyChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FriendlyChat.release.xcconfig"; path = "Target Support Files/Pods-FriendlyChat/Pods-FriendlyChat.release.xcconfig"; sourceTree = "<group>"; };
+		196656D0D66303D085BBF145 /* Pods_FriendlyChat_FriendlyChatUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FriendlyChat_FriendlyChatUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D0EEA8C24BA1B6B00577EF3 /* FriendlyChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FriendlyChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D0EEA8F24BA1B6B00577EF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D0EEA9124BA1B6B00577EF3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +55,14 @@
 		3D0EEAAD24BA1B6D00577EF3 /* FriendlyChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FriendlyChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D0EEAB124BA1B6D00577EF3 /* FriendlyChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendlyChatUITests.swift; sourceTree = "<group>"; };
 		3D0EEAB324BA1B6D00577EF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D0EEABF24BA1FFC00577EF3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3EC1AF95C79EE428EDCAB556 /* Pods-FriendlyChat-FriendlyChatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FriendlyChat-FriendlyChatUITests.debug.xcconfig"; path = "Target Support Files/Pods-FriendlyChat-FriendlyChatUITests/Pods-FriendlyChat-FriendlyChatUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		45A5C46A1BF3EB8FCD19D037 /* Pods-FriendlyChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FriendlyChat.debug.xcconfig"; path = "Target Support Files/Pods-FriendlyChat/Pods-FriendlyChat.debug.xcconfig"; sourceTree = "<group>"; };
+		6F4B71F5DE0E8B8394D1F8A9 /* Pods_FriendlyChatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FriendlyChatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78C9A355A6806639C6B0CE57 /* Pods-FriendlyChatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FriendlyChatTests.debug.xcconfig"; path = "Target Support Files/Pods-FriendlyChatTests/Pods-FriendlyChatTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8ADF66D6A64EED3C457C6835 /* Pods_FriendlyChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FriendlyChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F22DD801DF33B3B4EB06822 /* Pods-FriendlyChat-FriendlyChatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FriendlyChat-FriendlyChatUITests.release.xcconfig"; path = "Target Support Files/Pods-FriendlyChat-FriendlyChatUITests/Pods-FriendlyChat-FriendlyChatUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D0ED1259A3D7483C006F44FA /* Pods-FriendlyChatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FriendlyChatTests.release.xcconfig"; path = "Target Support Files/Pods-FriendlyChatTests/Pods-FriendlyChatTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02458AE27DA754171EF794C7 /* Pods_FriendlyChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				484878EF92D4E8DD9A4BF08A /* Pods_FriendlyChatTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A9B297728F32F1509A5FA0E /* Pods_FriendlyChat_FriendlyChatUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +100,8 @@
 				3D0EEAA524BA1B6D00577EF3 /* FriendlyChatTests */,
 				3D0EEAB024BA1B6D00577EF3 /* FriendlyChatUITests */,
 				3D0EEA8D24BA1B6B00577EF3 /* Products */,
+				83D3C3E981B2B55BDDFC4B4C /* Pods */,
+				B38B0D79F2AD5D3F3E309A11 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +122,7 @@
 				3D0EEA9124BA1B6B00577EF3 /* SceneDelegate.swift */,
 				3D0EEA9324BA1B6B00577EF3 /* ContentView.swift */,
 				3D0EEA9524BA1B6D00577EF3 /* Assets.xcassets */,
+				3D0EEABF24BA1FFC00577EF3 /* GoogleService-Info.plist */,
 				3D0EEA9A24BA1B6D00577EF3 /* LaunchScreen.storyboard */,
 				3D0EEA9D24BA1B6D00577EF3 /* Info.plist */,
 				3D0EEA9724BA1B6D00577EF3 /* Preview Content */,
@@ -136,6 +156,29 @@
 			path = FriendlyChatUITests;
 			sourceTree = "<group>";
 		};
+		83D3C3E981B2B55BDDFC4B4C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				45A5C46A1BF3EB8FCD19D037 /* Pods-FriendlyChat.debug.xcconfig */,
+				07A602251FE59BEE851A8BAB /* Pods-FriendlyChat.release.xcconfig */,
+				3EC1AF95C79EE428EDCAB556 /* Pods-FriendlyChat-FriendlyChatUITests.debug.xcconfig */,
+				8F22DD801DF33B3B4EB06822 /* Pods-FriendlyChat-FriendlyChatUITests.release.xcconfig */,
+				78C9A355A6806639C6B0CE57 /* Pods-FriendlyChatTests.debug.xcconfig */,
+				D0ED1259A3D7483C006F44FA /* Pods-FriendlyChatTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B38B0D79F2AD5D3F3E309A11 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8ADF66D6A64EED3C457C6835 /* Pods_FriendlyChat.framework */,
+				196656D0D66303D085BBF145 /* Pods_FriendlyChat_FriendlyChatUITests.framework */,
+				6F4B71F5DE0E8B8394D1F8A9 /* Pods_FriendlyChatTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,9 +186,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D0EEAB624BA1B6D00577EF3 /* Build configuration list for PBXNativeTarget "FriendlyChat" */;
 			buildPhases = (
+				80BEA9BA8712D98335A9CE2D /* [CP] Check Pods Manifest.lock */,
 				3D0EEA8824BA1B6B00577EF3 /* Sources */,
 				3D0EEA8924BA1B6B00577EF3 /* Frameworks */,
 				3D0EEA8A24BA1B6B00577EF3 /* Resources */,
+				429A3077EC641B1A262A0381 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,6 +205,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D0EEAB924BA1B6D00577EF3 /* Build configuration list for PBXNativeTarget "FriendlyChatTests" */;
 			buildPhases = (
+				455DC58DD2B8DF9B3273CD43 /* [CP] Check Pods Manifest.lock */,
 				3D0EEA9E24BA1B6D00577EF3 /* Sources */,
 				3D0EEA9F24BA1B6D00577EF3 /* Frameworks */,
 				3D0EEAA024BA1B6D00577EF3 /* Resources */,
@@ -178,9 +224,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D0EEABC24BA1B6D00577EF3 /* Build configuration list for PBXNativeTarget "FriendlyChatUITests" */;
 			buildPhases = (
+				AC473C3FB2384A917554361A /* [CP] Check Pods Manifest.lock */,
 				3D0EEAA924BA1B6D00577EF3 /* Sources */,
 				3D0EEAAA24BA1B6D00577EF3 /* Frameworks */,
 				3D0EEAAB24BA1B6D00577EF3 /* Resources */,
+				3EE822E1DB1CD47521E5E90A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -241,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D0EEA9C24BA1B6D00577EF3 /* LaunchScreen.storyboard in Resources */,
+				3D0EEAC024BA1FFC00577EF3 /* GoogleService-Info.plist in Resources */,
 				3D0EEA9924BA1B6D00577EF3 /* Preview Assets.xcassets in Resources */,
 				3D0EEA9624BA1B6D00577EF3 /* Assets.xcassets in Resources */,
 			);
@@ -261,6 +310,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3EE822E1DB1CD47521E5E90A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FriendlyChat-FriendlyChatUITests/Pods-FriendlyChat-FriendlyChatUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FriendlyChat-FriendlyChatUITests/Pods-FriendlyChat-FriendlyChatUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FriendlyChat-FriendlyChatUITests/Pods-FriendlyChat-FriendlyChatUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		429A3077EC641B1A262A0381 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FriendlyChat/Pods-FriendlyChat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FriendlyChat/Pods-FriendlyChat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FriendlyChat/Pods-FriendlyChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		455DC58DD2B8DF9B3273CD43 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FriendlyChatTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80BEA9BA8712D98335A9CE2D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FriendlyChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC473C3FB2384A917554361A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FriendlyChat-FriendlyChatUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3D0EEA8824BA1B6B00577EF3 /* Sources */ = {
@@ -432,10 +584,13 @@
 		};
 		3D0EEAB724BA1B6D00577EF3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45A5C46A1BF3EB8FCD19D037 /* Pods-FriendlyChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"FriendlyChat/Preview Content\"";
+				DEVELOPMENT_TEAM = J79747H4SF;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = FriendlyChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -444,6 +599,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = school.FriendlyChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -451,10 +607,13 @@
 		};
 		3D0EEAB824BA1B6D00577EF3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07A602251FE59BEE851A8BAB /* Pods-FriendlyChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"FriendlyChat/Preview Content\"";
+				DEVELOPMENT_TEAM = J79747H4SF;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = FriendlyChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -463,6 +622,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = school.FriendlyChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -470,6 +630,7 @@
 		};
 		3D0EEABA24BA1B6D00577EF3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78C9A355A6806639C6B0CE57 /* Pods-FriendlyChatTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +652,7 @@
 		};
 		3D0EEABB24BA1B6D00577EF3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0ED1259A3D7483C006F44FA /* Pods-FriendlyChatTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +674,7 @@
 		};
 		3D0EEABD24BA1B6D00577EF3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EC1AF95C79EE428EDCAB556 /* Pods-FriendlyChat-FriendlyChatUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -531,6 +694,7 @@
 		};
 		3D0EEABE24BA1B6D00577EF3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F22DD801DF33B3B4EB06822 /* Pods-FriendlyChat-FriendlyChatUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
